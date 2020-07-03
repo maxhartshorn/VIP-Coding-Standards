@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="WordPress VIP Minimum" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="WordPress VIP Minimum" namespace="WordPressVIPMinimum" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
 	<description>WordPress VIP Minimum Coding Standards</description>
 
 	<!-- Link references are platform-specific. See
 		https://wpvip.com/documentation/vip-go/understanding-codebase-differences/
 		for the differences between the platforms -->
+
+	<!-- Autoload the autoloader. -->
+	<autoload>./../autoload-bootstrap.php</autoload>
 
 	<rule ref="Generic.PHP.Syntax"/>
 	<rule ref="Generic.PHP.NoSilencedErrors">
