@@ -1,5 +1,5 @@
 {
-	"name": "automattic/vipwpcs",
+	"name": "maxhartshorn/vipwpcs",
 	"type": "phpcodesniffer-standard",
 	"description": "PHP_CodeSniffer rules (sniffs) to enforce WordPress VIP minimum coding conventions",
 	"keywords": [
